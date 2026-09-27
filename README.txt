@@ -1,15 +1,14 @@
-BORDEAUX & MÉDOC 2026 — MOCKUP EDITION v6.0
+BORDEAUX & MÉDOC 2026 — v6.1 LINKS FIXED
 
-Questa versione è stata ridisegnata per avvicinarsi molto di più al mockup mostrato:
-- Home immersiva con grande foto e CTA dorata.
-- 4 card rapide fotografiche.
-- Tab Giorni con calendario e timeline verticale.
-- Sezione Luoghi con grandi card fotografiche.
-- Wine Passport con foto, scheda visita e note.
-- Mappa stilizzata + link Google Maps.
-- Sezione Documenti con tutte le prenotazioni e i file .ics.
-- Tutte le immagini principali sono locali nel pacchetto.
+Correzioni:
+- Collegamenti Google Maps riscritti con il formato ufficiale maps/dir/?api=1.
+- Percorso Médoc diviso in tre tratte per evitare che Google Maps elimini waypoint su mobile/iPhone.
+- Link Maps aggiunti direttamente alle tappe principali del programma.
+- I singoli punti nella sezione Mappa sono ora cliccabili.
+- Aggiunti link per i due percorsi a piedi di Bordeaux.
+- Restano immagini locali, PWA offline, file calendario .ics e Wine Passport.
 
 AGGIORNAMENTO GITHUB
-Carica tutti i file nella root del repository e sovrascrivi i precedenti.
-Se l'iPhone mostra ancora una vecchia versione, rimuovi l'app dalla Home e aggiungila nuovamente da Safari.
+Carica TUTTI i file di questo ZIP nella root del repository e sovrascrivi i precedenti.
+Dopo il deploy, su iPhone chiudi la PWA e riaprila. Se compare ancora la vecchia versione,
+rimuovila dalla schermata Home e aggiungila di nuovo da Safari.
