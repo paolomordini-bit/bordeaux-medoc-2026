@@ -1,11 +1,22 @@
-BORDEAUX & MÉDOC 2026 — PHOTO EDITION v5.0
+BORDEAUX & MÉDOC 2026 — LOCAL PHOTO EDITION v5.1
 
-Questa versione elimina i disegni dalla PWA e usa fotografie reali nelle sezioni principali.
-Se una foto remota non si carica, resta lo sfondo neutro della card.
+Questa versione risolve il problema delle immagini che non si caricavano.
 
-Aggiornamento GitHub Pages:
-- carica tutti i file di questo ZIP nella root del repository;
-- sovrascrivi index.html, manifest.webmanifest, sw.js e README.txt;
-- elimina dal repository i vecchi JPG illustrati;
-- attendi il deploy;
-- se su iPhone resta la vecchia grafica, rimuovi la PWA dalla Home e aggiungila nuovamente da Safari.
+COSA CAMBIA
+- Le immagini usate nell'app sono FILE LOCALI inclusi nel pacchetto.
+- Nessun hotlink per le immagini principali.
+- Le immagini vengono memorizzate anche dal service worker.
+- Funzionano quindi su GitHub Pages e restano disponibili offline dopo il primo caricamento.
+- Restano itinerario, Wallet, Mappe, Calendario .ics, Wine Passport e note.
+
+IMPORTANTE
+Le quattro immagini sono visuali fotografiche d'atmosfera create per l'app, non fotografie documentarie dei singoli hotel, ristoranti o château.
+
+COME AGGIORNARE GITHUB PAGES
+1. Estrai questo ZIP.
+2. Nel repository GitHub elimina i vecchi JPG eventualmente rimasti.
+3. Carica TUTTI i file di questa versione nella root del repository.
+4. Conferma la sovrascrittura di index.html, manifest.webmanifest, sw.js e README.txt.
+5. Attendi il deploy di GitHub Pages.
+6. Su iPhone: chiudi la PWA e riaprila.
+7. Se vedi ancora la vecchia versione, rimuovi l'icona dalla Home e aggiungi nuovamente il sito da Safari.
