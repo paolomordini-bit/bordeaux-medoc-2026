@@ -1,25 +1,11 @@
-BORDEAUX & MÉDOC 2026 — PREMIUM PWA v4.0
+BORDEAUX & MÉDOC 2026 — PHOTO EDITION v5.0
 
-Questa versione è un redesign completo, non un semplice ritocco.
+Questa versione elimina i disegni dalla PWA e usa fotografie reali nelle sezioni principali.
+Se una foto remota non si carica, resta lo sfondo neutro della card.
 
-NOVITÀ
-- Home immersiva con foto a tutta pagina.
-- Design più elegante, coerente e vicino a un'app nativa.
-- Sezione “Il viaggio in immagini”.
-- Itinerario con copertine fotografiche per ogni giorno.
-- Wallet prenotazioni più pulito.
-- File .ICS per aggiungere gli appuntamenti al Calendario iPhone.
-- Ricerca nella sezione Luoghi.
-- Wine Passport e note persistenti.
-- Google Maps integrato.
-- Fallback grafici locali se le foto remote non si caricano.
-- Cache offline per i file principali.
-
-FOTO
-Alcune foto reali sono caricate da fonti esterne / siti ufficiali. Non tutte sono incluse
-nel pacchetto ZIP. In caso di mancato caricamento, l'app usa immagini locali di fallback.
-
-AGGIORNAMENTO GITHUB PAGES
-Sostituisci tutti i file del repository con quelli di questo ZIP.
-Essendo cambiato il service worker, chiudi e riapri l'app su iPhone dopo la pubblicazione.
-Se compare ancora la vecchia versione, elimina l'icona dalla Home e aggiungila nuovamente da Safari.
+Aggiornamento GitHub Pages:
+- carica tutti i file di questo ZIP nella root del repository;
+- sovrascrivi index.html, manifest.webmanifest, sw.js e README.txt;
+- elimina dal repository i vecchi JPG illustrati;
+- attendi il deploy;
+- se su iPhone resta la vecchia grafica, rimuovi la PWA dalla Home e aggiungila nuovamente da Safari.
