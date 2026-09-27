@@ -1,13 +1,10 @@
 {
-  "name": "Bordeaux & Médoc 2026 Local Photo Edition",
+  "name": "Bordeaux & Médoc 2026",
   "short_name": "Bordeaux 2026",
   "start_url": "./index.html",
-  "scope": "./",
   "display": "standalone",
-  "background_color": "#f7f3ee",
-  "theme_color": "#43111f",
-  "lang": "it-IT",
-  "description": "Master iPhone Bordeaux & Médoc 30 ottobre - 2 novembre 2026",
+  "background_color": "#fbfaf7",
+  "theme_color": "#5c0f2b",
   "icons": [
     {
       "src": "icon-192.png",
